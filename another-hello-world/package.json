@@ -1,0 +1,18 @@
+{
+  "name": "another-hello-world",
+  "version": "1.0.0",
+  "description": "Hello! Electron",
+  "main": "index.js",
+  "author": "holytissue",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwite --all",
+    "build:win32": "electron-packager . --out=dist --asar --overwite --platform=win32 --arch=x64"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^10.1.3",
+    "electron-packager": "^15.1.0"
+  }
+}
